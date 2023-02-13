@@ -254,6 +254,12 @@ i.scroll-up {
   width: 2rem;
   height: 2rem;
 }
+footer {
+  background-color: var(--bg-color);
+  padding: 1.25rem;
+  text-align: center;
+  margin: 2rem 0 0;
+}
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 720px) {
@@ -318,12 +324,7 @@ i.scroll-up {
     max-width: 23.75rem;
   }
 }
-footer {
-  background-color: var(--bg-color);
-  padding: 1.25rem;
-  text-align: center;
-  margin: 2rem 0 0;
-}
+
 /* ! RESPONSIVE CSS for small phones */
 @media screen and (max-width: 420px) {
   .hero img {
